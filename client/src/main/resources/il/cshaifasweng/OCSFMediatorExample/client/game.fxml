@@ -8,20 +8,19 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1100.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="il.cshaifasweng.OCSFMediatorExample.client.GameController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="il.cshaifasweng.OCSFMediatorExample.client.GameController">
    <children>
-      <Label fx:id="statusLabel" alignment="CENTER" layoutY="45.0" prefHeight="52.0" prefWidth="1100.0">
+      <Label fx:id="statusLabel" alignment="CENTER" layoutX="-150.0" layoutY="14.0" prefHeight="52.0" prefWidth="1100.0">
          <font>
             <Font size="36.0" />
          </font>
       </Label>
-      <Label fx:id="turnLabel" alignment="CENTER" layoutY="106.0" prefWidth="1100.0">
+      <Label fx:id="turnLabel" alignment="CENTER" layoutX="-150.0" layoutY="66.0" prefWidth="1100.0">
          <font>
             <Font size="36.0" />
          </font>
       </Label>
-      <GridPane fx:id="board" layoutX="100.0" layoutY="186.0" prefHeight="900.0" prefWidth="900.0" visible="false">
+      <GridPane fx:id="board" layoutX="114.0" layoutY="200.0" prefHeight="600.0" prefWidth="600.0" visible="false">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -33,22 +32,22 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#place" GridPane.rowIndex="0" GridPane.columnIndex="0">
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#place" GridPane.columnIndex="0" GridPane.rowIndex="0">
                <font>
                   <Font size="96.0" />
                </font>
             </Button>
-            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#place" GridPane.rowIndex="0" GridPane.columnIndex="1">
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#place" GridPane.columnIndex="1" GridPane.rowIndex="0">
                <font>
                   <Font size="96.0" />
                </font>
             </Button>
-            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#place" GridPane.rowIndex="0" GridPane.columnIndex="2">
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#place" GridPane.columnIndex="2" GridPane.rowIndex="0">
                <font>
                   <Font size="96.0" />
                </font>
             </Button>
-            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#place" GridPane.rowIndex="1" GridPane.columnIndex="0">
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#place" GridPane.columnIndex="0" GridPane.rowIndex="1">
                <font>
                   <Font size="96.0" />
                </font>
@@ -63,7 +62,7 @@
                   <Font size="96.0" />
                </font>
             </Button>
-            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#place" GridPane.rowIndex="2" GridPane.columnIndex="0">
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#place" GridPane.columnIndex="0" GridPane.rowIndex="2">
                <font>
                   <Font size="96.0" />
                </font>

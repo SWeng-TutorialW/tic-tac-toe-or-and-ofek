@@ -26,7 +26,7 @@ public class App extends Application {
   @Override
   public void start(Stage stage) throws IOException {
     EventBus.getDefault().register(this);
-    scene = new Scene(loadFXML("connection"), 1100, 1100);
+    scene = new Scene(loadFXML("connection"), 800, 800);
     stage.setScene(scene);
     stage.show();
   }
