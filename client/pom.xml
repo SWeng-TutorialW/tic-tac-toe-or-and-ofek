@@ -73,5 +73,13 @@
 				</executions>
 			</plugin>
 		</plugins>
+    <resources>
+      <resource>
+        <directory>src/main/java/il/cshaifasweng/OCSFMediatorExample/client</directory>
+      </resource>
+      <resource>
+        <directory>src/main/resources/il/cshaifasweng/OCSFMediatorExample/client</directory>
+      </resource>
+    </resources>
 	</build>
 </project>

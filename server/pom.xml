@@ -64,5 +64,10 @@
                     </executions>
 				</plugin>
 		</plugins>
+    <resources>
+      <resource>
+        <directory>src/main/java/il/cshaifasweng/OCSFMediatorExample/server</directory>
+      </resource>
+    </resources>
 	</build>
 </project>
